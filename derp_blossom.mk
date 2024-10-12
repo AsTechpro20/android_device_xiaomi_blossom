@@ -18,6 +18,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 TARGET_SUPPORTS_BLUR := true
 TARGET_ENABLE_BLUR := true
 scr_resolution := 720
+TARGET_USES_PICO_GAPPS := true
 
 PRODUCT_NAME := derp_blossom
 PRODUCT_DEVICE := blossom
