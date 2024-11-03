@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_blossom.mk
+    $(LOCAL_DIR)/infinity_blossom.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_blossom-user \
-    derp_blossom-userdebug \
-    derp_blossom-eng
+    infinity_blossom-user \
+    infinity_blossom-userdebug \
+    infinity_blossom-eng
