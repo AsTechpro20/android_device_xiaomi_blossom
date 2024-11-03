@@ -77,5 +77,11 @@ wifi.tethering.interface=ap0
 # Zygote
 ro.zygote.preload.enable=0
 
+# Infinity Stuffs
+ro.infinity.soc= MediaTek 6765
+ro.infinity.battery=5000 mAh
+ro.infinity.display=720x1600, 60 Hz
+ro.infinity.camera=13MP + 5MP
+
 # Device specific properties
 import /system/etc/properties/${ro.boot.hwname}.prop
