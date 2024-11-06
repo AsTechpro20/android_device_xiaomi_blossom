@@ -18,6 +18,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # RisingOS-15 stuffs.
 RISING_MAINTAINER="AsTechpro20"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="MediaTek 6765" \
+    RisingMaintainer="AsTechpro20"
 TARGET_SUPPORTS_BLUR := true
 TARGET_ENABLE_BLUR := true
 PRODUCT_NO_CAMERA := true
