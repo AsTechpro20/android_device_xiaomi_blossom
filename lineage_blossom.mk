@@ -23,7 +23,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingMaintainer="AsTechpro20"
 TARGET_SUPPORTS_BLUR := true
 TARGET_ENABLE_BLUR := true
-PRODUCT_NO_CAMERA := true
 scr_resolution := 720
 
 PRODUCT_NAME := lineage_blossom
