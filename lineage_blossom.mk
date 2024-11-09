@@ -12,15 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/blossom/device.mk)
 
-# Inherit some common RisingOS-15 stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-
-# RisingOS-15 stuffs.
-RISING_MAINTAINER="AsTechpro20"
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RisingChipset="MediaTek 6765" \
-    RisingMaintainer="AsTechpro20"
 TARGET_SUPPORTS_BLUR := true
 TARGET_ENABLE_BLUR := true
 scr_resolution := 720
