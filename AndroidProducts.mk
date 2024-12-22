@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2023 The derpOS Project
+# Copyright (C) 2023 The voltageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_blossom.mk
+    $(LOCAL_DIR)/voltage_blossom.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_blossom-user \
-    derp_blossom-userdebug \
-    derp_blossom-eng
+    voltage_blossom-user \
+    voltage_blossom-userdebug \
+    voltage_blossom-eng
