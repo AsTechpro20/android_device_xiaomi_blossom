@@ -1,2 +1,0 @@
-allow e2fs sysfs_devices_block:dir r_dir_perms;
-allow e2fs sysfs_devices_block:file r_file_perms;
